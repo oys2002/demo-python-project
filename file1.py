@@ -1,3 +1,5 @@
+import math
+
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
@@ -11,3 +13,6 @@ if sum_result % 2 == 0:
     print(sum_result, "is even")
 else:
     print(sum_result, "is odd")
+
+z = math.sqrt(sum_result)
+print(z)
